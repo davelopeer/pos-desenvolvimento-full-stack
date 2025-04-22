@@ -1,0 +1,24 @@
+Em qualquer linguagem de programação, as estruturas condicionais, também conhecidas como estrutura de decisão ou de controle,
+são utilizadas para manipular o fluxo de um código (MANZANO, 2016). Sem essas estruturas, uma linguagem de programação é basicamente
+inútil, afinal, não será capaz de tomar decisões inteligentes por conta própria.
+
+
+
+- Esturuta condicional simples
+
+Condição simples de 'if'. Caso não atenda aos requisitos do 'if', não faz nada
+
+
+- Estrutura condicional composta
+
+Condições compostas, onde temos uma condicional e uma regra geral caso não atenda à condicional ("else")
+
+
+- Estrutura condicional aninhada
+
+Múltiplas condições para casos diferentes ("else if")
+
+
+- Estrutura de múltipla escolha
+
+Condições atendendo à escolhas específicas ("switch case")

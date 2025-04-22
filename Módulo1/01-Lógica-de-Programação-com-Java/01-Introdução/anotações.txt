@@ -1,0 +1,26 @@
+--------------------------------
+Métodos de strings:
+
+length()
+concat()
+equals()
+substring()
+contains()
+replace()
+
+
+--------------------------------
+Entrada e Saída de dados
+
+System.out.println()
+System.out.print()
+System.out.printf()
+
+A entrada deve ser feita com a lib util.Scanner
+
+
+--------------------------------
+Um algoritmo é uma sequência fixa e finita de procedimentos que nos leva até o resultado.
+
+Na programação de computadores, os algoritmos são representados em uma linguagem própria chamada de linguagem de programação. 
+Uma linguagem de programação é uma notação projetada para conectar instruções a uma máquina ou um computador (FORBELLONE, 2005)
