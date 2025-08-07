@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick=confirmaDeleta()>Deletar</button>
+    <button onclick=confirmaEnvia()>Adicionar</button>
+    
+    <ul id="lista">
+
+    </ul>
+</body>
+<script>
+    // ALERT
+
+    // var nome = window.prompt("Nome:")
+    // var sobrenome = window.prompt("Sobrenome")
+    // window.alert("O seu nome é: " + nome.toUpperCase() + " " + sobrenome.toUpperCase())
+
+    // BUTTON
+    function confirmaDeleta() {
+        var confirmacao = confirm("Deseja excluir o item?")
+
+        if (confirmacao) {
+            alert("Deletado")
+        } else {
+            alert("Cancelado")
+        }
+    }
+
+    function confirmaEnvia() {
+        var confirmacao = window.prompt("Nome do time:")
+
+        if (confirmacao) {
+            var li = document.createElement("li")
+            li.textContent = confirmacao
+            lista.appendChild(li)
+            li.style.borderTop = '1px solid grey'
+        } else {
+            alert("Cancelado")
+        }
+    }
+
+
+
+    // LISTA
+    var lista = document.getElementById("lista")
+    lista.style.width = "140px"
+    var li = document.createElement("li")
+    li.textContent = "Fluminense"
+    lista.appendChild(li)
+
+    times = ["Corinthians", "Internacional", "Cruzeiro", "Botafogo", ]
+
+    for (var i=0; i < times.length; i++) {
+        var li = document.createElement("li")
+        li.textContent = times[i]
+        lista.appendChild(li)
+        li.style.borderTop = '1px solid grey'
+    }
+</script>
+</html>

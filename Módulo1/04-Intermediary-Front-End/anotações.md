@@ -75,3 +75,44 @@ var arr = Array(1, 2, 3, ...);
 var arr = [1, 2, 3, ...];
 
 **Se usar o Array e passar um elemento único, ele será entendido como o length do Array*
+
+#### Principais métodos
+
+- join() - junta elementos de um array numa string
+- shift() - retorna o primeiro valor de uma array
+- sort() - ordena os elementos de um array
+- reverse() - inverte a ordem dos elementos
+- slice() - retorna os elementos selecionados por index
+- length() - indica o tamanho do array
+- push() - adiciona um ou mais elementos ao final do array
+- pop() - retorna o ultimo elemento de um array
+- concat() - concatena dois arrays
+
+- filter() - itera sobre a array e retorna os elementos que atendem à instrução.
+- map() - itera sobre a array e modifica os elementos da array. Podem ser passados elementos, o indice e o array, sendo os dois últimos opcionais.
+- reduce() - reduz um array de valor a um único valor.
+- forEach() - itera sobre o array igual um for
+
+
+### Functions
+
+Podemos passar vários argumentos pra uma função, utilizando  *function(...args){}*
+
+### Objetos
+
+Podem ser criados com *new Object()* ou apenas definido com {}
+
+
+### Classes
+
+Utilizamos o *class* passando o método *constructor* para inicializar a classe. 
+
+
+
+## DOM
+
+Document Oriented Model. Se refere à hierarquia dos elementos numa página.
+
+![alt text](images/dom.png)
+
+Hieraquia de pais e filhos. Elementos acima são pais dos elementos abaixo.
