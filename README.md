@@ -18,7 +18,7 @@ Projeto para centralizar os estudos e provas das disciplinas do curso.
 - Módulo 2:
   - Advanced Front-End
   - Essencial Database
-  - Strategies BackEnd
+  - Arquitetura e Modelagem de Dados
   - Refactoring
 
 - Módulo 3:
